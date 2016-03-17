@@ -1,0 +1,102 @@
+.theHoleDamnSite {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.header {
+	
+	width: 100%;
+	color: #262626;
+	height: 125px;
+	background-image: url("photo/paper-texture.jpg");
+
+
+	-webkit-box-shadow: 0 5px 10px 2px #333333;
+	box-shadow: 0 5px 10px 2px #333333;
+}
+
+
+
+.title {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+body {	
+	background-image: url("photo/paper-texture.jpg");
+}
+
+.container {
+	width: 1000px;
+	height: 500px;
+}
+
+
+.carousel-image {
+	color: #0d0d0d;
+}
+
+.carousel-indicators{
+	color: #0d0d0d;
+}
+
+.carousel-caption {
+	color: #0d0d0d;
+	background-color: #cccccc;
+	opacity: 0.75;
+	left: 0px;
+	right: 0px;
+}
+
+.carousel-caption a {
+	color: #0d0d0d;
+	opacity: 1 !important;
+}
+
+.carousel-control {
+	color: #0d0d0d;
+}
+
+.col-6 {
+
+}
+
+.col-4 {
+	color: #262626;
+	padding-top: 10px;
+}
+
+.col-4 a {
+	color: #565656;
+}
+
+.footer {
+	padding-right: 10px;
+}
+
+.social {
+	float: right;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.social ul {
+	padding: 20;
+	overflow: hidden;	
+}
+
+.social li {
+	float: left;
+	padding-left: 20px;
+}
+
+.fa {
+	color: #262626;
+}

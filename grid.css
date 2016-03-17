@@ -1,0 +1,183 @@
+/*///////////////////////////////////////////////////////////////////////
+
+Begin CSS Reset - Grid Starts at Line 59
+
+
+//////////////////////////////////////////////////////////////////////*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*///////////////////////////////////////////////////////////////////////
+
+End CSS Reset Begin Grid
+
+
+//////////////////////////////////////////////////////////////////////*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1170px;
+  display: block;
+  margin: auto;
+}
+
+/*You do not need col-color, this is just to show you where your grid is */
+
+.col-color {
+  background-color: #606060;
+  width: 100%;
+  display: block;
+  height: 150px;
+  margin: auto;
+}
+
+/* You do not need row, but can use it to add space above and belos your columns */
+
+.row {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
+.col-1 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 70px;
+  float: left;
+  display: block;
+}
+
+.col-2 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 166px;
+  float: left;
+  display: block;
+}
+
+.col-3 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 262px;
+  float: left;
+  display: block;
+}
+
+.col-4 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 358px;
+  float: left;
+  display: block;
+}
+
+.col-5 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 454px;
+  float: left;
+  display: block;
+}
+
+.col-6 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 550px;
+  float: left;
+  display: block;
+}
+
+.col-7 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 646px;
+  float: left;
+  display: block;
+}
+
+.col-8 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 742px;
+  float: left;
+  display: block;
+}
+
+.col-9 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 838px;
+  float: left;
+  display: block;
+}
+
+.col-10 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 934px;
+  float: left;
+  display: block;
+}
+
+.col-11 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 1030px;
+  float: left;
+  display: block;
+}
+
+.col-12 {
+  padding-left: 13px;
+  padding-right: 13px;
+  width: 1126px;
+  float: left;
+  display: block;
+  position: relative;
+}
